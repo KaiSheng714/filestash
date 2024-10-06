@@ -1,0 +1,5 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/test-2024-437811/filestash', '.']
+images:
+  - 'gcr.io/test-2024-437811/filestash'
